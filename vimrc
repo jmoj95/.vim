@@ -7,6 +7,7 @@
 " Other sources:
 " - https://youtube.com/watch?v=XA2WjJbmmoM
 " - http://vim.wikia.com/wiki/Indent_with_tabs,_align_with_spaces
+" - https://medium.com/@huntie/10-essential-vim-plugins-for-2018-39957190b7a9
 
 " FEATURES
 " ----------------------------------------------------------------------------
