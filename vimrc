@@ -17,6 +17,11 @@
 " This option has the effect of making Vim either more Vi-compatible, or
 " make Vim behave in a more useful way.
 set nocompatible
+" Required for Vundle
+filetype off
+
+" Vundle plugin
+so ./plugins.vim
 
 " Attempt to determine the type of a file based on its name and possibly its
 " contents. Use this to allow intelligent auto-indenting for each filetype,
@@ -173,6 +178,15 @@ map Y y$
 " Map <C-L> (redraw screen) to also turn off search highlighting until the
 " next search
 nnoremap <C-L> :nohl<CR><C-L>
+
+" NERDTree mappings
+map <C-o> :NERDTreeToggle<CR>
+
+" vim-gitgutter mappings
+nmap ]c <Plug>GitGutterNextHunk
+nmap [c <Plug>GitGutterPrevHunk
+nmap <Leader>hs <Plug>GitGutterStageHunk
+nmap <Leader>hu <Plug>GitGutterUndoHunk
 
 " COMMANDS
 " ----------------------------------------------------------------------------
